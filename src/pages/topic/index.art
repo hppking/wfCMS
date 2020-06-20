@@ -1,0 +1,22 @@
+{{extend __../LAYOUT__ }}
+
+{{block 'title'}}话题详情{{/block}}
+
+{{block 'head'}}
+    
+{{/block}}
+
+{{block 'content'}}
+<div class="wamp">
+    <div class="title">
+    狗是犬科的，猫是猫科的，猪是猪科的。然而狼是犬科的，虎是猫科的等等，这种科到底根据什么规则来定？谁先被发现就谁老大？相信一定有大神可以为我解答科怎么出现的？
+    </div>
+    <div class="caddy">
+        <p>生物分类是从西方传入中国的，公认的奠基人</p>
+        <p><img src="http://dik.img.kttpdq.com/pic/142/99386/5bdc6bc2302e4423_1440x900.jpg" style="width: 100%;height: 142px;"/></p>
+        <p>到了达尔文大大以后，分类学进入了新阶段，大家对于同类的原因——进化有了一定的认识，大家伙儿根据根据动物的同源性（一个祖宗）进行分类，要考虑大量结构、生理、行为、遗传因素。</p>
+        <p>还是起一个具有代表性，大家一听就能想到这堆东西的模样的名字呢？</p>
+    </div>
+    <div id="root"></div>
+</div>
+{{/block}}

@@ -1,0 +1,28 @@
+{
+    "apps": [
+        {
+            "name": "tasks/code",
+            "script": "tasks/code.js",
+            "log_date_format": "YYYY-MM-DD HH:mm Z",
+            "watch": [
+                "./tasks/code.js"
+            ],
+            "cwd": "/tasks",
+            "env": {
+                "NODE_ENV": "production"
+            }
+        },
+        {
+            "name": "tasks/log",
+            "script": "tasks/log.js",
+            "log_date_format": "YYYY-MM-DD HH:mm Z",
+            "watch": [
+                "./tasks/log.js"
+            ],
+            "cwd": "/tasks",
+            "env": {
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}

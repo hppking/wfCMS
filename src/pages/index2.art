@@ -1,0 +1,11 @@
+{{extend './layout.art'}}
+
+{{block 'title'}}wwwf测wv试1t{{/block}}
+
+{{block 'head'}}
+    
+{{/block}}
+
+{{block 'content'}}
+<p>..v</p> {{hello}}
+{{/block}}

@@ -1,0 +1,29 @@
+.header{
+    background-color: #228CFF;
+}
+.login-wrap{
+    background: rgba(56, 157, 170, 0.82);;
+}
+.plugins-tips{
+    background: #f2f2f2;
+}
+.plugins-tips a{
+    color: #228CFF;
+}
+.el-upload--text em {
+    color: #228CFF;
+}
+.pure-button{
+    background: #228CFF;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    background-color: #228CFF !important;
+    border-color: #228CFF !important;
+}
+.tags-li.active {
+    border: 1px solid #228CFF;
+    background-color: #228CFF;
+}
+.collapse-btn:hover{
+    background: #228CFF;
+}

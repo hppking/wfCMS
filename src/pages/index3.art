@@ -1,0 +1,11 @@
+{{extend './layout.art'}}
+
+{{block 'title'}}是可以的{{/block}}
+
+{{block 'head'}}
+    
+{{/block}}
+
+{{block 'content'}}
+<p>我是第3个页面44 |..v</p> {{hello}}
+{{/block}}

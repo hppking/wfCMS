@@ -1,0 +1,29 @@
+version: '3'
+services:
+    tasks:
+      image: keymetrics/pm2:12-alpine
+      restart: always 
+      privileged: true
+      command: pm2-runtime start pm2.json
+      working_dir: /tasks
+      volumes:
+        - .:/tasks
+    db:
+      image: rethinkdb
+      restart: always 
+      privileged: true
+      volumes:
+        - ./data/db:/data
+      ports:
+        - "8123:8080"
+        - "28015:28015"
+    nats-streaming:
+      image: "nats-streaming:0.17.0"
+      restart: always 
+      privileged: true
+      command: -store file  -dir /data -http_port 8222
+      ports:
+        - "14222:4222"
+        - "18222:8222"
+      volumes:
+        - ./data/nats-streaming:/data

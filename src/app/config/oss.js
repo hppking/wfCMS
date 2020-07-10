@@ -1,6 +1,6 @@
 module.exports = {
     ossAccessKeyId: 'LTAI4GHDJvomQNtYBuYFi2Si',
-    secret: 'L9DC5LFTY3HoBwNzoi6bYJLog7Y98c',
+    secret: 'L9DC5LFTX',
     host: 'http://static.youdianlab.com',
     uploadDir: 'uploads/',
     expire: 1000 * 60 * 10,
